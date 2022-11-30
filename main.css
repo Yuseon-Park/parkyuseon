@@ -113,11 +113,11 @@ img.main {
 
 .highlight {
 	background-color: none;
-  font-style: italic;
-  letter-spacing: 0px;
+    font-style: italic;
+    letter-spacing: 0px;
 	color: black;
 	text-decoration: none;
-  border-bottom: 0.1rem black solid;
+    border-bottom: 0.1rem black solid;
 }
 
 a.highlight:hover {
@@ -134,8 +134,9 @@ a.highlight:hover {
 
 
 select {
+	z-index: 999;
   writing-mode: horizontal-tb !important;
-	font-family: "Plantin-Light", san-serif;
+  font-family: "Plantin-Light", san-serif;
   font-size: 1rem;
   text-rendering: auto;
   color: fieldtext;
