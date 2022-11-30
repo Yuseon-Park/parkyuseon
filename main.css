@@ -55,7 +55,7 @@ html {
 
 .left {
 	border-right: 0.1rem dashed black;
-	padding: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
 }
 
 .left,
@@ -71,7 +71,7 @@ html {
 	width: auto;
 	height: auto;
 	/* border-bottom: 0.1rem solid black; */
-	padding: 20px 20px 20px 20px;
+	padding: 10px 10px 200px 10px;
 	/* border-right: 1px solid black; */
 	/* display: grid;
 	grid-template-columns: 36px auto; */
