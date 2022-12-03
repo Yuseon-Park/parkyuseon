@@ -151,6 +151,13 @@ img {
 	#rightcontent {
 	margin: 40px 30px 40px 30px!important;
 	}
+
+	html,
+	body, 
+	p,
+	.h1 {
+		font-size: 16px;
+	}
 }
 
 #content {
@@ -241,7 +248,7 @@ li:before {
 
 .caption {
 	font-family: "Plantin-Light";
-	font-size: .65em;
+	font-size: 12px;
 	line-height: 1.3em;
 	vertical-align: top;
 	text-align: left;
@@ -254,7 +261,7 @@ select {
 	z-index: 999;
 	writing-mode: horizontal-tb !important;
 	font-family: "Plantin-Light";
-	font-size: .65em;
+	font-size: 12px;
 	line-height: 1.3em;
 	text-rendering: auto;
 	color: fieldtext;
