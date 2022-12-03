@@ -23,24 +23,6 @@ html {
 	background: #000;
 }
 	
-@media (min-width: 801px) {
-.fixedr {
-	position: fixed;
-	z-index: 1;
-	width: 50%;
-	height: 110vh;
-	top: 0;
-	left: calc(50% - 0.0rem);
-	border-left: 0.1rem dashed;
-	border-color: #000;
-	pointer-events: none; }
-}
-	
-@media (max-width: 800px) {
-.fixedr {
-	display: none; }
-}
-
 body {
 	margin: 0px;
 	padding: 0px;
@@ -129,6 +111,26 @@ img {
 	margin: 80px 80px 80px 80px;
 }
 
+@media (min-width: 801px) {
+	.fixedr {
+		position: fixed;
+		z-index: 1;
+		width: 50%;
+		height: 110vh;
+		top: 0;
+		left: calc(50% - 0.0rem);
+		border-left: 0.1rem dashed;
+		border-color: #000;
+		pointer-events: none; }
+	}
+		
+	@media (max-width: 800px) {
+	.fixedr {
+		display: none; }
+	}
+	
+
+	
 @media screen and (max-width: 876px) {
 	#left {
 	width: 100%;
@@ -152,12 +154,10 @@ img {
 	margin: 40px 30px 40px 30px!important;
 	}
 
-	html,
-	body, 
-	p,
-	.h1 {
+	body {
 		font-size: 16px;
 	}
+
 }
 
 #content {
@@ -248,7 +248,7 @@ li:before {
 
 .caption {
 	font-family: "Plantin-Light";
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1.3em;
 	vertical-align: top;
 	text-align: left;
@@ -261,7 +261,7 @@ select {
 	z-index: 999;
 	writing-mode: horizontal-tb !important;
 	font-family: "Plantin-Light";
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1.3em;
 	text-rendering: auto;
 	color: fieldtext;
