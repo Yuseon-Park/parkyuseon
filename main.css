@@ -22,7 +22,11 @@ html {
 	color: white;
 	background: #000;
 }
-	
+
+* {
+    -webkit-font-smoothing: antialiased;
+  }
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -310,4 +314,37 @@ select {
 	border: 0px solid #DCDCDC;
 	padding: 0;
 }
+
+/*scrollbar*/
+::-moz-selection {
+	/* Code for Firefox */
+	color: #fff;
+	background: #878683;
+  }
+  
+  ::selection {
+	color: #fff;
+	background: #878683;
+  }
+  
+  ::-webkit-scrollbar {
+	/* width */
+	width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	/* Track */
+	/* background: #f1f1f1;  */
+	background: #86878b;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	/* Handle */
+	background: #46484b;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	/* Handle on hover */
+	background: white;
+  }
   
